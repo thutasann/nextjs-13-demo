@@ -13,6 +13,9 @@ const Header = () => {
             <Link href="/todos" className='px-2 py-1 text-blue-500 bg-white rounded-md'>
                 Todos
             </Link>
+            <Link href="/search" className='px-2 py-1 text-blue-500 bg-white rounded-md'>
+                Search
+            </Link>
         </header>
     )
 }

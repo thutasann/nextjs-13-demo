@@ -4,7 +4,7 @@ import TodoList from './TodoList'
 const Todos = () => {
     return (
         <div>
-            <h1>This is where the Todos will be listed...</h1>
+            <h1>This is where SSG Todos will be displayed...</h1>
         </div>
     )
 }
