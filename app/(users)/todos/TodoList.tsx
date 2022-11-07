@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import React from 'react'
-import { Todo } from '../../typings';
+import { Todo } from '../../../typings';
 
 const fetchTodos = async() => {
     const res = await fetch("https://jsonplaceholder.typicode.com/todos/");
