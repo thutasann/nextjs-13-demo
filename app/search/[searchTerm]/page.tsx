@@ -23,7 +23,8 @@ const Search = async(searchTerm: string) => {
         `https://serpapi.com/search.json?q=${searchTerm}&api_key=${process.env.API_KEY}`
     );
     
-    throw new Error("WHOOPS something broke");
+    // If ther is an error, redirect to error.tsx
+    // throw new Error("WHOOPS something broke");
     const data: SearchResult = await res.json();
     return data;
 }
