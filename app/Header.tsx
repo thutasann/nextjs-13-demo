@@ -16,6 +16,12 @@ const Header = () => {
             <Link href="/search" className='px-2 py-1 text-blue-500 bg-white rounded-md'>
                 Search
             </Link>
+            <Link href="/dashboard" className='px-2 py-1 text-blue-500 bg-white rounded-md'>
+                Dashboard
+            </Link>
+            <Link href="/developer" className='px-2 py-1 text-blue-500 bg-white rounded-md'>
+                Developer
+            </Link>
         </header>
     )
 }
